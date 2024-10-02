@@ -35,15 +35,15 @@ export const getStatusIcon = (status) => {
 export const getPriorityIcon = (priority) => {
   switch (priority) {
     case 4: 
-      return <img className="icon priority-icon urgent" src='/images/urgent-priority-colour.svg' alt='urgent' />;
+      return <img className="icon priority-icon" src='/images/urgent-priority-colour.svg' alt='urgent' />;
     case 3: 
-      return <img className="icon priority-icon high" src='/images/HighPriority.svg' alt='high' />;
+      return <img className="icon priority-icon" src='/images/HighPriority.svg' alt='high' />;
     case 2: 
-      return <img className="icon priority-icon medium" src='/images/MediumPriority.svg' alt='medium' />;
+      return <img className="icon priority-icon" src='/images/MediumPriority.svg' alt='medium' />;
     case 1: 
-      return <img className="icon priority-icon low" src='/images/LowPriority.svg' alt='low' />;
+      return <img className="icon priority-icon" src='/images/LowPriority.svg' alt='low' />;
     default: 
-      return <img className="icon priority-icon no-priority" src='/images/No-priority.svg' alt='no-priority' />;
+      return <img className="icon priority-icon" src='/images/No-priority.svg' alt='no-priority' />;
   }
 };
 
